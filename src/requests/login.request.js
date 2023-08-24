@@ -17,7 +17,7 @@ export default class Login {
 
   access() {
     let payload = JSON.stringify({
-      email: 'fulano@qa.com',
+      email: 'prueba@qa.com',
       password: 'teste'
     })
     let response = http.post(`${Utils.getBaseUrl()}/login`, payload, this.params)

@@ -1,7 +1,7 @@
 {
   "name": "k6-arch-example",
   "version": "0.0.2",
-  "description": "Projeto para exemplo de arquitetura para testes de performance usando o k6",
+  "description": "Proyecto por ejemplo de arquitectura para pruebas de rendimiento usando k6",
   "main": "index.js",
   "scripts": {
     "pretest": "",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maximilianoalves/k6-arch-example.git"
+    "url": "git+https://ghuaynamontes@bitbucket.org/grafana-k6/grafana-k6-customize.git"
   },
-  "author": "Maximiliano Alves da Cruz",
+  "author": "George Felix Huayna Montes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maximilianoalves/k6-arch-example/issues"
+    "url": "https://ghuaynamontes@bitbucket.org/grafana-k6/grafana-k6-customize.git/issues"
   },
-  "homepage": "https://github.com/maximilianoalves/k6-arch-example#readme",
+  "homepage": "https://ghuaynamontes@bitbucket.org/grafana-k6/grafana-k6-customize.git#readme",
   "devDependencies": {
     "webpack-cli": "^4.8.0"
   },

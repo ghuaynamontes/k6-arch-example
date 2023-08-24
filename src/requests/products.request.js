@@ -41,9 +41,9 @@ export default class Products {
       },
     };
 
-    let response = http.post(`${Utils.getBaseUrl()}/produtos`, payload, params)
+    let response = http.post(`${Utils.getBaseUrl()}/productos`, payload, params)
     this.productId = response.json('_id')
-    console.info(`Adicionou o produto com o id ${this.productId}`)
+    console.info(`Agregar el producto con id ${this.productId}`)
     check(response, {
       'is status 201': () => response.status === 201,
     });
@@ -58,8 +58,8 @@ export default class Products {
         'monitor': false,
       },
     };
-    let response = http.del(`${Utils.getBaseUrl()}/produtos/${this.productId}`, null, params)
-    console.info(`Removeu o produto com o id ${this.productId}`)
+    let response = http.del(`${Utils.getBaseUrl()}/productos/${this.productId}`, null, params)
+    console.info(`Producto eliminado con id ${this.productId}`)
     check(response, {
       'is status 200': () => response.status === 200,
     });
